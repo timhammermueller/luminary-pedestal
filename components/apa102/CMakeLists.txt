@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "apa102_buffer.c"
+        "apa102_controller.c"
+        "apa102_driver.c"
+    INCLUDE_DIRS
+        "include"        
+    REQUIRES
+        driver
+        ledfx
+)
